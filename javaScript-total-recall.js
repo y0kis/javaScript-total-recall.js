@@ -16,6 +16,14 @@ let yourName = "Mary";
 let greeting = `Hello, my name is ${yourName}`;
 console.log(greeting);
 
+// BOOLEANS
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+console.log(a != b);
+
 
 
 
