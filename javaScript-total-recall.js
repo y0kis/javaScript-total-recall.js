@@ -33,23 +33,23 @@
 //console.log(a != b);
 
 //BOOLEANS
-const a = 4;
-const b = 53;
-const c = 57;
-const d = 16;
-const e = 'Kevin';
-console.log(a != b);
-console.log(c != d);
-console.log('Name' == 'Name');
+// const a = 4;
+// const b = 53;
+// const c = 57;
+// const d = 16;
+// const e = 'Kevin';
+// console.log(a != b);
+// console.log(c != d);
+// console.log('Name' == 'Name');
 
 //FOR THE NEXT TWO, USE ONLY && OR ||
-console.log(true || false);
-console.log(false && false && false || true);
-console.log(false == false);
-console.log(e == 'Kevin');
-console.log(a < b != c);
-console.log(a == a != d);
-console.log(48 == '48');
+// console.log(true || false);
+// console.log(false && false && false || true);
+// console.log(false == false);
+// console.log(e == 'Kevin');
+// console.log(a < b != c);
+// console.log(a == a != d);
+// console.log(48 == '48');
 
 // The farm
 //if animal is a cow print moooooo
@@ -113,23 +113,34 @@ console.log(48 == '48');
 
 // // For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
 
-for (let i= 0; i <=100; i++) {
-        if (i%5 === 0) {
-        console.log(i + 'I found a number. High five!');
-} else {
-        console.log(i);
-}
-}
+// for (let i= 0; i <=100; i++) {
+//         if (i%5 === 0) {
+//         console.log(i + 'I found a number. High five!');
+// } else {
+//         console.log(i);
+// }
+// }
 
-// // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
+// // // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
 
-for (let i= 0; i <=100; i++) {
-        if (i%3 === 0) {
-                console.log(i + 'I found a number. Three is a crowd');
-        } else {
-                console.log(i);
-        }
-}
+// for (let i= 0; i <=100; i++) {
+//         if (i%3 === 0) {
+//                 console.log(i + 'I found a number. Three is a crowd');
+//         } else {
+//                 console.log(i);
+//        }
+//}
+
+// Savings account 
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
+
+// let bank_account = 0;
+// for (let i = 1; i <= 10; i++) {
+//         bank_account += i;
+// }
+//         console.log(bank_account);
+
+
 
 
 
