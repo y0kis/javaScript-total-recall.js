@@ -51,15 +51,26 @@ console.log(a < b != c);
 console.log(a == a != d);
 console.log(48 == '48');
 
+// The farm
 //if animal is a cow print moooooo
 //if the animal is not a cow print "Hey! You're not a cow."
 
-let animal ="cow";
+// let animal ="cow";
 
-if (animal === "cat"){
-    console.log("moooooo");
+// if (animal === "cat"){
+//     console.log("moooooo");
+// } else {
+//     console.log("Hey! You're not a cow.")
+// }
+
+//  Driver's  Ed
+
+let personAge = 9;
+
+if (personAge >= 16) {
+    console.log("Here are the keys!");
 } else {
-    console.log("Hey! You're not a cow.")
+    console.log("Sorry, you're too young.");
 }
 
 
