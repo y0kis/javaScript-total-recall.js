@@ -140,6 +140,15 @@
 // }
 //         console.log(bank_account);
 
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+
+// let bank_account = 0;
+// for (let i = 1; i <= 100; i++) {
+//         bank_account += i*2;
+// }
+//         console.log(bank_account);
+
+
 
 
 
