@@ -111,16 +111,25 @@ console.log(48 == '48');
 //         console.log(i); }
 // }
 
-// For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
+// // For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
 
 for (let i= 0; i <=100; i++) {
         if (i%5 === 0) {
-                console.log(i + 'I found a number. High five!');
+        console.log(i + 'I found a number. High five!');
+} else {
+        console.log(i);
+}
+}
+
+// // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
+
+for (let i= 0; i <=100; i++) {
+        if (i%3 === 0) {
+                console.log(i + 'I found a number. Three is a crowd');
         } else {
                 console.log(i);
         }
 }
-
 
 
 
