@@ -103,11 +103,22 @@ console.log(48 == '48');
 //}
 
 //Adjust your code to add a message next to even numbers only that says."<--is an even number"
-for (i = 1; i<=100; i++) {
-        if (i%2 === 0) {
-        console.log( i +'<-- is an even number');
+
+// for (i = 1; i<=100; i++) {
+//         if (i%2 === 0) {
+//         console.log( i +'<-- is an even number');
+//         } else {
+//         console.log(i); }
+// }
+
+// For the number 0 -100, print out "I found a number. High five!" if the number is a multiple of five
+
+for (let i= 0; i <=100; i++) {
+        if (i%5 === 0) {
+                console.log(i + 'I found a number. High five!');
         } else {
-        console.log(i); }
+                console.log(i);
+        }
 }
 
 
