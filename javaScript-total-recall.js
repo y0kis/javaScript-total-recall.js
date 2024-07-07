@@ -179,33 +179,62 @@
 //D. Change values
 //Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //1. What would you write to access the 3rd element of the array?
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-        console.log(ourClass[3]);
+//const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+        //console.log(ourClass[3]);
 //2. Change the value of "Github" to "Octocat"
-ourClass[4] = "Octocat";    
-console.log(ourClass);
+//ourClass[4] = "Octocat";    
+//console.log(ourClass);
 //3.Add a new element, "Cloud City" to the array
-ourClass.push("Cloud City");
-console.log(ourClass);
+//ourClass.push("Cloud City");
+//console.log(ourClass);
 
 // E. Mix It Up 
 // Given the following array: const myArray = [5, 10, 500, 20]
 //1. Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
-const myArray = [5, 10, 500, 20];
-myArray.push("Aregon", "Ohio");
-console.log(myArray);
-//2.Remove the 5from the beginning of the array.
-myArray.shift();
-console.log(myArray);
-//3.Add the string "Bob Marley"to the beginning of the array.
-myArray.unshift("Bob Marley");
-console.log(myArray);
-//4.Remove the string of your choice from the end of the array.
-myArray.pop();
-console.log(myArray);
+// const myArray = [5, 10, 500, 20];
+// myArray.push("Aregon", "Ohio");
+// console.log(myArray);
+// //2.Remove the 5from the beginning of the array.
+// myArray.shift();
+// console.log(myArray);
+// //3.Add the string "Bob Marley"to the beginning of the array.
+// myArray.unshift("Bob Marley");
+// console.log(myArray);
+// //4.Remove the string of your choice from the end of the array.
+// myArray.pop();
+// console.log(myArray);
 //5. Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
-myArray.reverse();
-console.log(myArray);
+//myArray.reverse();
+//console.log(myArray);
+
+//F. Biggie Smalls
+// //1. console.log()s "little number" if the number is entered is less than 100
+// let num = 100
+// if (num <30) {
+//         //console.log("little number");
+// }
+// //2. console.log()s  big number if the number is greater than or equal to 100.
+// else  {
+//         console.log("big number");
+// }
+
+//G. Monkey in the Middle
+//1. console.log() little number if the number entered is less than 5.
+// let num = 3
+// if (num <5) {
+//         console.log("little number");
+// }
+// //2. If the number entered is more than 10, log  big number
+// if (num >10) {
+//         console.log("big number");
+// }
+// else {
+//         console.log("monkey");
+// }
+
+
+
+
 
 
 
