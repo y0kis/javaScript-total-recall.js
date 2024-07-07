@@ -148,6 +148,34 @@
 // }
 //         console.log(bank_account);
 
+// Arrays & Control flow 
+// A. Talk about it:
+//1. What are the things in an array called?
+// The things in an array is called an Element.
+//2. Do Arrays guarantee those things will be in order?
+// Yes it does guarantee those things will be in order'
+// 3. What real-life thing could you model with an array?
+// Daily activities
+
+// B. Easy Does It 
+// 1. Create an array that contains three quotes and store it in a variable called quotes
+
+// let quotes = ["It take a village to raise a girl", "perseverance is key", "Dawn comes in the morning"];
+//         console.log(quotes);
+
+// C. Accessing elements
+// Given the following array const randomThings = [1, 10, "Hello", true]
+//1. How do youy access thge 1st element in the aaray?
+
+const randomThings = [1, 10, "Hello", true]
+        console.log(randomThings [0]);
+
+// 2.Change the value of "Hello" to "World"
+randomThings[2] = "World";
+
+//3. Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+        console.log(randomThings);
+
 
 
 
