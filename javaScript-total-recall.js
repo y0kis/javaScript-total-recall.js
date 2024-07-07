@@ -167,15 +167,45 @@
 // Given the following array const randomThings = [1, 10, "Hello", true]
 //1. How do youy access thge 1st element in the aaray?
 
-const randomThings = [1, 10, "Hello", true]
-        console.log(randomThings [0]);
+// const randomThings = [1, 10, "Hello", true]
+//         console.log(randomThings [0]);
 
-// 2.Change the value of "Hello" to "World"
-randomThings[2] = "World";
+// // 2.Change the value of "Hello" to "World"
+// randomThings[2] = "World";
 
-//3. Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
-        console.log(randomThings);
+// //3. Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+//         console.log(randomThings);
 
+//D. Change values
+//Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//1. What would you write to access the 3rd element of the array?
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+        console.log(ourClass[3]);
+//2. Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat";    
+console.log(ourClass);
+//3.Add a new element, "Cloud City" to the array
+ourClass.push("Cloud City");
+console.log(ourClass);
+
+// E. Mix It Up 
+// Given the following array: const myArray = [5, 10, 500, 20]
+//1. Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+const myArray = [5, 10, 500, 20];
+myArray.push("Aregon", "Ohio");
+console.log(myArray);
+//2.Remove the 5from the beginning of the array.
+myArray.shift();
+console.log(myArray);
+//3.Add the string "Bob Marley"to the beginning of the array.
+myArray.unshift("Bob Marley");
+console.log(myArray);
+//4.Remove the string of your choice from the end of the array.
+myArray.pop();
+console.log(myArray);
+//5. Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+myArray.reverse();
+console.log(myArray);
 
 
 
